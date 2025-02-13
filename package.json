@@ -5,13 +5,18 @@
   "description": "flattens folders and fils for a claude workspace wh",
   "license": "MIT",
   "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.92.0"
+  "homepage": "https://github.com/DavidSanwald/claude-workspacify#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidSanwald/claude-workspacify.git"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [],
+  "engines": {
+    "vscode": "^1.92.0"
+  },
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
